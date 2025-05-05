@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Truffle (Solidity smart contracts)
+build/
+contracts/*.json  # Ignore compiled contract artifacts (except source .sol files)
+
+# React frontend
+client/node_modules/
+client/build/
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Environment variables (sensitive data)
+.env
+*.env
+.env.*
+!.env.example  # Keep a sample env file for reference
+
+# Flare Network testnet configs
+wallet.json  # MetaMask or testnet wallet files
+private-key.txt
+keystore/
+
+# Temporary files
+*.log
+*.cache
+*.swp
+.DS_Store  # macOS system files
+
+# Build outputs
+dist/
+out/
+
+# IDE files
+.vscode/
+.idea/
+
+# Testing artifacts
+coverage/
+coverage.json
+coverage.lcov
